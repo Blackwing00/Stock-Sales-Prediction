@@ -1,8 +1,9 @@
-Voice Activated Inventory Assistant
+# Voice Activated Inventory Assistant
 
 This is a smart inventory assistant that integrates your data with an AI model using Model Context Protocol(MCP).
 
-Description
+# Description
+
 It uses MCP (Model Context Protocol) to link GPT-style language understanding with structured inventory data and a predictive model. All voice input is processed offline, and the assistant can take actions based on your spoken prompts.
 
 Overview about this Project? To build an offline, voice-enabled analytics tool
