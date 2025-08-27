@@ -1,4 +1,5 @@
 Voice Activated Inventory Assistant
+
 This is a smart inventory assistant that integrates your data with an AI model using Model Context Protocol(MCP).
 
 Description
