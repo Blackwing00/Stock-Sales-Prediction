@@ -28,3 +28,55 @@ How to Use the Project Open command prompt and enter: uvicorn mains:app --reload
 
 You enter the login space. Enter the credentials like this:
 <img width="1269" height="671" alt="image" src="https://github.com/user-attachments/assets/546e9d91-c100-4214-b840-8b42775ed5c5" />
+
+Once you are logged in try predicting the model like this:
+<img width="645" height="826" alt="image" src="https://github.com/user-attachments/assets/d43fe0cc-124c-45e2-92ea-fa1f2895ff54" />
+
+Then try using the voice assistant: Once the assistant is running:
+
+It will listen for your voice command
+
+It will process your query using MCP + GPT4All
+
+Then it will:
+
+Respond using text-to-speech
+
+Trigger backend logic (e.g., alert, prediction, analytics)
+
+Example Commands: "Predict sales for this week"
+
+"Give me a stock alert"
+
+"What were last week's top selling products?"
+
+"Exit" – to close the assistant
+<img width="1069" height="188" alt="image" src="https://github.com/user-attachments/assets/7851ce99-2404-4d95-8149-3758bbd4dac7" />
+
+All responses are spoken back to you using TTS.
+
+Features Voice command recognition
+
+Predict sales from ad budgets
+
+Show top selling products from last 7 days
+
+Alert when stock is below restock threshold
+
+GPT-style responses using GPT4All(offline)
+
+Works on local .csv data — no database required
+
+Easy to extend with FastAPI or Streamlit
+
+Tech Stack
+
+Component Description gpt4all Offline conversational model (TinyLLaMA) speech_recognition Convert voice to text pyttsx3 Speak text output (TTS) pandas CSV and inventory logic datetime For weekly filtering FastAPI (optional) Add RESTful endpoints for deployment
+
+Future Improvements: Add user authentication with face recognition
+
+Replace CSV with SQLite or MongoDB
+
+Streamlit dashboard for live analytics
+
+Wake-word feature (“Hey Inventory!”)
