@@ -12,7 +12,7 @@ app = FastAPI()
 class InputData(BaseModel):
     TV: float
     Radio: float
-    Newspaper: float
+    Newspaper: float 
     Stock_Available: int
     Stock_Used: float
     Restock_Threshold: int 
