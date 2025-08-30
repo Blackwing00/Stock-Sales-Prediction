@@ -15,7 +15,7 @@ class InputData(BaseModel):
     Newspaper: float
     Stock_Available: int
     Stock_Used: float
-    Restock_Threshold: int
+    Restock_Threshold: int 
     Reorder_Quantity: int
     Stock_Replenished: int
     Date: str
