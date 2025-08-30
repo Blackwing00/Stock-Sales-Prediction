@@ -38,5 +38,5 @@ def predict(data: InputData):
         return {"prediction": prediction.tolist()}  # Convert to JSON serializable format
 
     except Exception as e:
-        return {"error": str(e)}  # Catch errors and return as JSON
+        return {"error": str(e)}  # Catch errors and return as JSON 
  
