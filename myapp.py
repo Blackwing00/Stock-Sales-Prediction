@@ -39,3 +39,4 @@ def predict(data: InputData):
 
     except Exception as e:
         return {"error": str(e)}  # Catch errors and return as JSON
+ 
